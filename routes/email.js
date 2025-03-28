@@ -8,8 +8,8 @@ router.post('/', async (req, res) => {
         service: 'gmail',
         auth: {
 
-            user: 'updates.sft@gmail.com',
-            pass: 'xcnladctwjodmnic'
+            user: 'metatech674@gmail.com',
+            pass: 'yethmbyazkshqctb'
 
 
         }
@@ -23,8 +23,8 @@ router.post('/', async (req, res) => {
 
 
     const mailOption = {
-        from: "updates.sft.gmail.com",
-        to: "corp.sft@gmail.com",
+        from: "metatech674@gmail.com",
+        to: "ashar.a.hmd11@gmail.com",
         subject: "SFT New User Alert",
         html: ` <div style='text-align: center;background-color:#000000;padding:30px;font-family: Arial, sans-serif;'>
         <h1 style='color:#FFF;text-align:center;' \>New L${req.body.level} User Created</h1>
@@ -101,8 +101,8 @@ router.post('/levelup', async (req, res) => {
         service: 'gmail',
         auth: {
 
-            user: 'updates.sft@gmail.com',
-            pass: 'xcnladctwjodmnic'
+            user: 'metatech674@gmail.com',
+            pass: 'yethmbyazkshqctb'
 
 
         }
@@ -116,8 +116,8 @@ router.post('/levelup', async (req, res) => {
 
 
     const mailOption = {
-        from: "updates.sft@gmail.com",
-        to: "corp.sft@gmail.com",
+        from: "metatech674@gmail.com",
+        to: "ashar.a.hmd11@gmail.com",
         subject: "SFT New User Alert",
         html: ` <div style='text-align: center;background-color:#000000;padding:30px;font-family: Arial, sans-serif;'>
         <h1 style='color:#FFF;text-align:center;' \>User Level Up To L${req.body.level}</h1>
@@ -212,8 +212,8 @@ router.post('/withdrawrequest', async (req, res) => {
         service: 'gmail',
         auth: {
 
-            user: 'updates.sft@gmail.com',
-            pass: 'xcnladctwjodmnic'
+            user: 'metatech674@gmail.com',
+            pass: 'yethmbyazkshqctb'
 
 
         }
@@ -227,8 +227,8 @@ router.post('/withdrawrequest', async (req, res) => {
 
 
     const mailOption = {
-        from: "updates.sft@gmail.com",
-        to: "corp.sft@gmail.com",
+        from: "metatech674@gmail.com",
+        to: "ashar.a.hmd11@gmail.com",
         subject: "SFT New User Alert",
         html: ` <div style='text-align: center;background-color:#000000;padding:30px;font-family: Arial, sans-serif;'>
         <h1 style='color:#FFF;text-align:center;' \>User $${req.body.amount} Withdraw Request</h1>
