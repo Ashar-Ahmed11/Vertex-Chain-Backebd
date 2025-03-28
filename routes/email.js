@@ -25,7 +25,7 @@ router.post('/', async (req, res) => {
     const mailOption = {
         from: "metatech674@gmail.com",
         to: "ashar.a.hmd11@gmail.com",
-        subject: "SFT New User Alert",
+        subject: "VTC New User Alert",
         html: ` <div style='text-align: center;background-color:#000000;padding:30px;font-family: Arial, sans-serif;'>
         <h1 style='color:#FFF;text-align:center;' \>New L${req.body.level} User Created</h1>
 
@@ -118,7 +118,7 @@ router.post('/levelup', async (req, res) => {
     const mailOption = {
         from: "metatech674@gmail.com",
         to: "ashar.a.hmd11@gmail.com",
-        subject: "SFT New User Alert",
+        subject: "VTC New User Alert",
         html: ` <div style='text-align: center;background-color:#000000;padding:30px;font-family: Arial, sans-serif;'>
         <h1 style='color:#FFF;text-align:center;' \>User Level Up To L${req.body.level}</h1>
 
@@ -229,7 +229,7 @@ router.post('/withdrawrequest', async (req, res) => {
     const mailOption = {
         from: "metatech674@gmail.com",
         to: "ashar.a.hmd11@gmail.com",
-        subject: "SFT New User Alert",
+        subject: "VTC New User Alert",
         html: ` <div style='text-align: center;background-color:#000000;padding:30px;font-family: Arial, sans-serif;'>
         <h1 style='color:#FFF;text-align:center;' \>User $${req.body.amount} Withdraw Request</h1>
 
